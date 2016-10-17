@@ -1,0 +1,16 @@
+Trip Dan 07:15 07:45 17.3
+Driver Dan
+Driver Alex
+Driver Bob
+Trip Dan 07:15 07:45 17.3
+Trip Dan 06:12 06:32 12.9
+Trip Dan 11:00 12:00 60.0
+Trip Alex 12:01 13:16 42.0
+Driver Noah
+Trip Noah 06:12 06:32 25.9
+Trip Noah 09:10 10:32 40.9
+Driver Trip
+Driver Trip
+Trip Alex 12:01 12:03 50
+Trip Trip 12:01 12:50 50
+Trip Trip 12:01 12:56 45
