@@ -27,7 +27,7 @@ class DrivingRecord
   def self.summary
     Driver.all.each(&:generate_driving_record)
 
-    all.uniq.sort_by(&:distance).reverse.each do |record|
+    all.sort_by(&:distance).reverse.each do |record|
       p formatted_record(record)
     end; nil # Added nil here to stop the echo of objects in terminal output
   end

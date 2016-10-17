@@ -10,6 +10,7 @@ class Driver
 
   def initialize(driver)
     @driver = driver
+    return if self.class.collector.map(&:driver).include? driver
     self.class.collector.push(self)
   end
 

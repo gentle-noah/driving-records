@@ -22,7 +22,7 @@ describe Driver do
 
   describe '.all' do
     it 'includes all created Driver objects' do
-      expect(Driver.all).to include(driver)
+      expect(described_class.all.map(&:driver)).to include(driver.driver)
     end
   end
 
