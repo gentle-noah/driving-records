@@ -12,6 +12,7 @@ class Trip
     @driver = driver
     @distance = distance
     @duration = duration
+    return unless (distance / duration).between?(5, 100)
     self.class.collector.push(self)
   end
 
